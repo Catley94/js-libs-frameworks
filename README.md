@@ -2,6 +2,11 @@
 
 The idea is that this will be a community driven website that lists the majority of JavaScript Libraries and Frameworks.
 
+## Improve our website
+Fork our website, make the change, make a pull request.
+Or
+Log a ticket on 'issues'.
+
 ## Why create this?
 Mainly, to help the community, this is for everyone.
 Does this really need an answer? I'm sure I'm not the only one to find that JS is such a powerful language and yet when you come to adding libraries and frameworks, you would like to know your options...

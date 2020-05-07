@@ -3,9 +3,10 @@
 The idea is that this will be a community driven website that lists the majority of JavaScript Libraries and Frameworks.
 
 ## Improve our website
-Fork our website, make the change, make a pull request.
+Before making any changes, please read the "Priorities" below.
+1. Fork our website, make the change, make a pull request.
 Or
-Log a ticket on 'issues'.
+2. Log a ticket on 'issues'.
 
 ## Why create this?
 Mainly, to help the community, this is for everyone.

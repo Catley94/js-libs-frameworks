@@ -17,3 +17,6 @@ I did a google search for a website that has this idea, listing majority of libr
 ## So how's this going to work?
 For the time being I've created the template of the website, I'd community members to fork this, make changes and then do a merge request, I will review and then either accept or reject it. 
 Over time I will add people to help manage this, to make it more manageable especially if it gets popular, which I hope it will.
+
+## Personal Preference
+This website will have Bootstrap 4 and it's dependancies, I would appreciate it if we kept it like this for the time being so I understand the code. As my knowledge progresses we can change the way the website is made.

@@ -1,0 +1,24 @@
+.jumbotron {
+    background: #495057;
+    color: white;
+    width: 100%;
+}
+
+.fa-js-square {
+    color: #F7E018;
+}
+
+
+table .fa-node {
+    color: #6CA45E;
+}
+
+table .fa-node, table .fa-js-square {
+    font-size: 1.5em;
+}
+
+footer {
+    background: #495057;
+    color: white;
+    width: 100vw;
+}

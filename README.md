@@ -26,3 +26,9 @@ Over time I will add people to help manage this, to make it more manageable espe
 
 ## Personal Preference
 This website will have Bootstrap 4 and it's dependancies, I would appreciate it if we kept it like this for the time being so I understand the code. As my knowledge progresses we can change the way the website is made.
+
+## What's to stop me forking the project and making another version of the project?
+Nothing... but I would prefer you didn't as the reason for doing this is to stop fragmentation, if there's more than one of these sites it will cause confusion between the community and thus we're back at square one.
+
+## What's the future of the project
+If this becomes popular, I will be buying a domain for it and putting out a survey on what the community thinks should be the domain if available.

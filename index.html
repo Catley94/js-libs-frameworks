@@ -40,18 +40,14 @@
                 </thead>
                 <tbody>
                   <tr>
+                    <!-- animejs -->
                     <th scope="row">1</th>
                     <td><i class="fab fa-js-square"></i> Anime.js</td>
                     <td><a href="https://animejs.com/">Anime.js</a></td>
                     <td>
-                        <button class="btn btn-outline-primary btn-block" type="button" data-toggle="collapse" data-target="#animeDesc" aria-expanded="false" aria-controls="collapseExample">
-                        Toggle
+                        <button class="btn btn-outline-primary btn-block" type="button" data-toggle="modal" data-target="#animeModal">
+                        Pop up
                       </button>
-                      <div class="collapse" id="animeDesc">
-                        <div class="card card-body">
-                            Lightweight JavaScript animation library, it works with CSS properties, SVG, DOM attributes and JavaScript Objects.
-                        </div>
-                      </div>
                       </td>
                       <td>Animate, animation</td>
                   </tr>
@@ -60,14 +56,9 @@
                     <td><i class="fab fa-js-square"></i> React</td>
                     <td><a href="https://reactjs.org/">React</a></td>
                     <td>
-                        <button class="btn btn-outline-primary btn-block" type="button" data-toggle="collapse" data-target="#ReactDesc" aria-expanded="false" aria-controls="collapseExample">
-                        Toggle
+                        <button class="btn btn-outline-primary btn-block" type="button" data-toggle="modal" data-target="#reactModal">
+                        Pop up
                       </button>
-                      <div class="collapse" id="ReactDesc">
-                        <div class="card card-body">
-                            A JavaScript library for building user interfaces.
-                        </div>
-                      </div>
                     </td>
                     <td>ReactJS, interface</td>
                   </tr>
@@ -76,8 +67,8 @@
                     <td><i class="fab fa-js-square"></i> Vue.js</td>
                     <td><a href="https://vuejs.org/">Vue.js</a></td>
                     <td>
-                        <button class="btn btn-outline-primary btn-block" type="button" data-toggle="collapse" data-target="#vueDesc" aria-expanded="false" aria-controls="collapseExample">
-                            Toggle
+                        <button class="btn btn-outline-primary btn-block" type="button" data-toggle="modal" data-target="#vueModal">
+                            Pop up
                           </button>
                           <div class="collapse" id="vueDesc">
                             <div class="card card-body">
@@ -92,14 +83,9 @@
                     <td><i class="fab fa-node"></i> Express</td>
                     <td><a href="https://expressjs.com/">Express</a></td>
                     <td>
-                        <button class="btn btn-outline-primary btn-block" type="button" data-toggle="collapse" data-target="#expressDesc" aria-expanded="false" aria-controls="collapseExample">
-                            Toggle
+                        <button class="btn btn-outline-primary btn-block" type="button" data-toggle="modal" data-target="#expressModal">
+                            Pop up
                           </button>
-                          <div class="collapse" id="expressDesc">
-                            <div class="card card-body">
-                                Fast, unopinionated, minimalist web framework for Node.js
-                            </div>
-                          </div>
                     </td>
                     <td>Node, web, mobile</td>
                   </tr>
@@ -108,19 +94,114 @@
                     <td><i class="fab fa-js-square"></i> Electron</td>
                     <td><a href="https://www.electronjs.org/">Electron</a></td>
                     <td>
-                        <button class="btn btn-outline-primary btn-block" type="button" data-toggle="collapse" data-target="#electronDesc" aria-expanded="false" aria-controls="collapseExample">
-                            Toggle
+                        <button class="btn btn-outline-primary btn-block" type="button" data-toggle="modal" data-target="#electronModal">
+                            Pop up
                           </button>
-                          <div class="collapse" id="electronDesc">
-                            <div class="card card-body">
-                                Build cross-platform desktop apps with JavaScript, HTML, and CSS
-                            </div>
-                          </div>
                     </td>
                     <td>Desktop, apps, windows, mac, osx, linux</td>
                   </tr>
                 </tbody>
               </table>
+              <!-- model animejs -->
+              <div class="modal fade" id="animeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">AnimeJs</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      Lightweight JavaScript animation library, it works with CSS properties, SVG, DOM attributes and JavaScript Objects.
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- end of model animejs -->
+              <!-- model reactModal -->
+              <div class="modal fade" id="reactModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">React</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      A JavaScript library for building user interfaces.
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- end of model reactModal -->
+              <!-- model vueModal -->
+              <div class="modal fade" id="vueModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Vue</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      The Progressive JavaScript Framework
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- end of model vueModal -->
+              <!-- model expressModal -->
+              <div class="modal fade" id="expressModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Express</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      Fast, unopinionated, minimalist web framework for Node.js
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- end of model expressModal -->
+              <!-- model electronModal -->
+              <div class="modal fade" id="electronModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Electron</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      Build cross-platform desktop apps with JavaScript, HTML, and CSS
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- end of model expressModal -->
         </div>
         
       </div>

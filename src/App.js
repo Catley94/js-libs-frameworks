@@ -103,7 +103,6 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-
         <Jumbotron className="headerText" fluid>
           <Container>
             <div className="text-center text-sm-left">
@@ -112,7 +111,6 @@ class App extends React.Component {
               <hr className="my-4" />
               <p>This resource does not and probably will never have <em>every</em> Library or Framework, but the idea is that it has the majority</p>
             </div>
-            
           </Container>
         </Jumbotron>
         <Container>
@@ -139,12 +137,6 @@ class App extends React.Component {
                 </tbody>
           </Table>
         </Container>
-        
-        
-          {/* {this.state.libs.map((lib, idx) => {
-                return <Modal lib={lib} idx={idx} key={idx}/>;
-            })} */}
-        
         <footer >
           <Container fluid>
             <div className="text-center p-2">
@@ -159,7 +151,6 @@ class App extends React.Component {
             </div>
           </Container>
         </footer>
-
       </div>
     );
   }

@@ -1,4 +1,4 @@
-# JavaScript Libraries and Frameworks
+# JavaScript Libraries and Frameworks - created with Create-React-App
 
 The idea is that this will be a community driven website that lists the majority of JavaScript Libraries and Frameworks.
 

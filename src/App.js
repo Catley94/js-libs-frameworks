@@ -94,6 +94,13 @@ class App extends React.Component {
           tags: ["data", "visualization", "SVG", "CSS", "bar", "chart"],
           description: "D3.js is a JavaScript library for manipulating documents based on data. D3 helps you bring data to life using HTML, SVG, and CSS. D3’s emphasis on web standards gives you the full capabilities of modern browsers without tying yourself to a proprietary framework, combining powerful visualization components and a data-driven approach to DOM manipulation."
         },
+        {
+          name: "Svelte",
+          type: "js",
+          website: "https://svelte.dev/",
+          tags: ["user", "interfaces", "framework", "app", "virtual", "DOM"],
+          description: "Svelte is a radical new approach to building user interfaces. Whereas traditional frameworks like React and Vue do the bulk of their work in the browser, Svelte shifts that work into a compile step that happens when you build your app. Instead of using techniques like virtual DOM diffing, Svelte writes code that surgically updates the DOM when the state of your app changes."
+        },
       ]
     }
   }

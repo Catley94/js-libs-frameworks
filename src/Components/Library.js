@@ -16,7 +16,7 @@ function Library(props) {
                     }
                     {" " + props.lib.name}
                     </td>
-                <td><a href="https://animejs.com/">{props.lib.name}</a></td>
+                <td><a href={props.lib.website}>{props.lib.name}</a></td>
                 <td>
                 <Button variant="outline-primary" onClick={handleShow}>
                     Pop up

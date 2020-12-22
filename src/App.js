@@ -101,6 +101,20 @@ class App extends React.Component {
           tags: ["user", "interfaces", "framework", "app", "virtual", "DOM"],
           description: "Svelte is a radical new approach to building user interfaces. Whereas traditional frameworks like React and Vue do the bulk of their work in the browser, Svelte shifts that work into a compile step that happens when you build your app. Instead of using techniques like virtual DOM diffing, Svelte writes code that surgically updates the DOM when the state of your app changes."
         },
+        {
+          name: "React Native",
+          type: "js",
+          website: "https://reactnative.dev/",
+          tags: ["mobile", "interfaces", "framework", "app", "windows", "macOS", "linux", "android", "ios"],
+          description: "Create native apps for Android and iOS using React. React Native combines the best parts of native development with React, a best-in-class JavaScript library for building user interfaces."
+        },
+        {
+          name: "Ionic",
+          type: "js",
+          website: "https://ionicframework.com/",
+          tags: ["mobile", "interfaces", "framework", "app", "windows", "macOS", "linux", "android", "ios"],
+          description: "One codebase. Any platform. Now in React, Angular, Vue. An open source mobile UI toolkit for building high quality, cross-platform native and web app experiences. Move faster with a single code base, running everywhere with JavaScript and the Web."
+        },
       ]
     }
   }
